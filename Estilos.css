@@ -77,7 +77,8 @@ nav ul li a {
 }
 
 .guia-item {
-  flex: 0 0 250px; /* ancho fijo para cada tarjeta */
+  flex: 0 0 250px;
+  max-width: 100%;
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
@@ -342,5 +343,6 @@ section {
   color: #007bff;
   font-size: 14px;
 }
+
 
 
