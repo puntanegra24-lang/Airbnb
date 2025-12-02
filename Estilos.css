@@ -70,10 +70,12 @@ nav ul li a {
 .guia-grid {
   display: flex;
   justify-content: center;       /* Centra horizontalmente */
-  align-items: stretch;          /* Alinea verticalmente */
+  align-items: stretch;
   gap: 20px;
-  flex-wrap: wrap;               /* Permite que se acomoden en varias */
+  flex-wrap: wrap;               /* Permite varias filas si hay poco espacio */
   padding: 0 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .guia-item {
@@ -343,6 +345,7 @@ section {
   color: #007bff;
   font-size: 14px;
 }
+
 
 
 
